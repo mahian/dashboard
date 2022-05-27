@@ -76,3 +76,8 @@ footer{
 footer img{
     width: 330px;
 }
+@media only screen and (max-width: 425px){
+	.dashboard_menus{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
